@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.body1, .body2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.head {
+  height: 60px;
+  border-top: 3px solid black;
+  color: black;
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listbg {
+  border-top: 5px solid black;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listbg ul {
+  margin: 0;
+  padding: 0;
+}
+
+.listbg li {
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.listbg a {
+  text-decoration: none;
+  color:#212121;
+  transition: color 0.3s ease-in-out;
+}
+
+.listbg a:hover {
+  color:rgb(238, 120, 120);
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.page-center {
+  margin-top: 200px;
+}
+
+
+.cls1 {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cls2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .listbg ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+}
+.address{
+  place-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  height:400px;
+  width:900px;
+  margin-left:100px;
+}
+.addr{
+  margin-top: 30px;
+}
