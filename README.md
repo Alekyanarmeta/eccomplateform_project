@@ -1,9 +1,5 @@
 ![Screenshot 2025-05-19 230756](https://github.com/user-attachments/assets/4ac45f8d-f20c-4a8b-a547-9501357923e2)
 
-Great! Since your project runs on `http://localhost:5173/home`, I'll tailor the `README.md` for that and regenerate the content accordingly. Here's your **updated and complete `README.md`** with your local server reference:
-
----
-
 # 🛒 TrendyCart
 
 **TrendyCart** is a responsive and modern e-commerce shopping platform built with React and JavaScript. It showcases a clean UI for displaying categorized products from an online store with add-to-cart functionality.
