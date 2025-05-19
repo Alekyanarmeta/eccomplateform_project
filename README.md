@@ -164,5 +164,3 @@ Interested in contributing? Awesome! Here's how:
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
-
-Would you like me to generate a downloadable `.md` file or add badges and demo GIFs to enhance it visually?
